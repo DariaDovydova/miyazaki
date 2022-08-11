@@ -15,7 +15,7 @@ function FavoritesItem({favoritesItem}) {
       </span>
       </h4>
       <div className="block-favAnime">
-      <img className="img-cart" src={`../img/${movies.img}.jpg`} alt="movie" width='200px' height='200px' />     
+      <img className="img-cart" src={movies.img} alt="movie" width='200px' height='200px' />     
       <a className="link-watch-favAnime" href={movies.link}>WATCH NOW</a>
       </div>
     </div>
