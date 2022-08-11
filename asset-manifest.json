@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/miyazaki/static/css/main.68c822eb.css",
+    "main.js": "/miyazaki/static/js/main.4d8aedde.js",
+    "static/js/787.5cfe7958.chunk.js": "/miyazaki/static/js/787.5cfe7958.chunk.js",
+    "static/media/miadzaki.jpg": "/miyazaki/static/media/miadzaki.440062fd1bca08bafaa4.jpg",
+    "static/media/ghibli.jpg": "/miyazaki/static/media/ghibli.a7f55d033d606fc2f5d6.jpg",
+    "index.html": "/miyazaki/index.html",
+    "main.68c822eb.css.map": "/miyazaki/static/css/main.68c822eb.css.map",
+    "main.4d8aedde.js.map": "/miyazaki/static/js/main.4d8aedde.js.map",
+    "787.5cfe7958.chunk.js.map": "/miyazaki/static/js/787.5cfe7958.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68c822eb.css",
+    "static/js/main.4d8aedde.js"
+  ]
+}
