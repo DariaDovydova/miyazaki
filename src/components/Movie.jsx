@@ -9,6 +9,7 @@ const Movie = ({movie}) => {
 
 
 
+
   return (
     <div className="card">
       <Link to={`/about/${movie.title}`}>
@@ -20,10 +21,9 @@ const Movie = ({movie}) => {
       <span className="card-title">{movie.name}</span>
     </div>
     <div className="card-action">
-      <button className='btn' onClick={() => {dispatch(addItemToFavorites({movie}, setAdd(true))) 
-      }}>{add ? 'Added' : 'Add to favorites'}</button>
+      <button className='btn'  onClick={() => {dispatch(addItemToFavorites({movie}, setAdd(true)))}}>{add ? 'Added' : 'Add to favorites'}</button>
     </div>
-  </div>
+    </div>
   )
 }
 

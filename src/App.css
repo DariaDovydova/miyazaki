@@ -78,6 +78,8 @@ body {
   justify-content: space-between;
 }
 
+
+
 .list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -189,6 +191,47 @@ body {
   color: #00adef;
   padding: 5px 10px;
 }
+
+.container-notice {
+  display: flex;
+  justify-content: center;
+  letter-spacing: .5mm;
+  padding: 0;
+}
+
+.btn-log {
+  background: #fff;
+  border: 1px solid #00adef;
+  height: 40px;
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.btn-log:hover {
+  background: #00adef;
+}
+
+.par-login {
+  border-bottom: 2px solid #00adef;
+  text-align: center;
+}
+
+.par-secret {
+  font-size: 17px;
+  letter-spacing: .4mm;
+}
+
+.user {
+  color: #00adef;
+}
+
+.container-successful {
+  text-align: center;
+}
+
+
 
 
 @media all and (max-width: 800px) {

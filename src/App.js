@@ -7,6 +7,7 @@ import { Home } from './pages/Home';
 import { Favorites } from './pages/Favorites';
 import { AboutAnime } from './pages/AboutAnime';
 import { Preloader } from './components/Preloader';
+import { Goods } from './pages/Goods';
 
 
 function App() {
@@ -19,15 +20,17 @@ function App() {
   }
 
   return (
+    
     <>
-  
-      <Router basename='/miyazaki'>
+    
+      <Router>
         <Header />
         <main className="container content">
         {loading ? <Preloader /> : (
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route path='/favorites' element={<Favorites />} />
+          <Route path='/goods' element={<Goods />} />
           <Route path='/about/:title' element={<AboutAnime />} />
         </Routes>
         )}
@@ -38,6 +41,7 @@ function App() {
     
     
       </>
+    
   );
 }
 

@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 import Icon from '../icon.png';
 import { useSelector } from "react-redux";
 import { getFavoritesItems } from "../redux/favoritesSlice";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Header() {
+  const { isAuthenticated } = useAuth0();
 
-  const animeList = useSelector(getFavoritesItems)
+  const animeList = useSelector(getFavoritesItems);
+
   return (
     <nav className="header"> 
     <div className="nav-wrapper">
@@ -20,6 +23,11 @@ function Header() {
             <li>
               <Link to='/favorites'>Favorites {animeList.length > 0 ? <span className='quantity'>{animeList.length}</span> : null}</Link>
             </li>
+
+            {isAuthenticated && (
+            <li>
+              <Link to='/goods'>Goods</Link>
+            </li>)}
         </ul>
     </div>
 </nav>

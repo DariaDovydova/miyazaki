@@ -24,9 +24,9 @@ const MovieList = () => {
       // eslint-disable-next-line
       .filter((movie)  => {
         if (mySearch === '') {
-          return movie 
+          return movie;
         } else if (movie.name.toLowerCase().includes(mySearch.toLowerCase())) {
-          return movie 
+          return movie;
         }
       }).map((movie, index) => <Movie key={index} movie={movie} />)}
     </div>
