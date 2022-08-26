@@ -23,7 +23,7 @@ function App() {
     
     <>
     
-      <Router>
+      <Router basename='/miyazaki'>
         <Header />
         <main className="container content">
         {loading ? <Preloader /> : (
