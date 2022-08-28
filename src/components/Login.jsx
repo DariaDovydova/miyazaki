@@ -5,7 +5,7 @@ const Login = () => {
   return (
     !isAuthenticated && (
     <div className='container-notice'>
-      <p className='par-login'>You can log in and buy items with anime characters</p>
+      <p className='par-login'>You can log in and buy items of anime characters</p>
       <button className='btn-log' onClick={() => loginWithRedirect()}>Log in</button>
     </div>
   )

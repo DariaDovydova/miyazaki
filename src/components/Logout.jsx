@@ -3,7 +3,6 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const Logout = () => {
   const { user, logout, isAuthenticated } = useAuth0();
-  console.log(user)
   return (
     isAuthenticated && (
     <div className='container-notice'>

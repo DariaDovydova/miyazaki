@@ -26,7 +26,7 @@ function Header() {
 
             {isAuthenticated && (
             <li>
-              <Link to='/goods'>Goods</Link>
+              <Link to='/goods'>Shop</Link>
             </li>)}
         </ul>
     </div>
