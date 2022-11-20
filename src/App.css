@@ -1,5 +1,5 @@
 body {
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
 }
 
 .header {
@@ -12,7 +12,7 @@ body {
 }
 
 .icon-hayao {
-  margin-top: .4rem;
+  margin-top: 0.4rem;
 }
 
 .footer {
@@ -34,34 +34,33 @@ body {
   height: 20px;
   position: absolute;
   left: 15%;
-  animation: ball .5s alternate infinite ease;
+  animation: ball 0.5s alternate infinite ease;
 }
 
 @keyframes ball {
   0% {
-      top: 60px;
-      height: 5px;
+    top: 60px;
+    height: 5px;
   }
 
   40% {
-      height: 20px;
-      
+    height: 20px;
   }
 
   100% {
-      top: 0%;
+    top: 0%;
   }
 }
 
 #ball:nth-child(2) {
   left: 45%;
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 #ball:nth-child(3) {
   left: auto;
   right: 15%;
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 
 .card {
@@ -78,8 +77,6 @@ body {
   justify-content: space-between;
 }
 
-
-
 .list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -88,7 +85,7 @@ body {
 
 .btn {
   background-color: #00adef;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   margin-top: 20px;
 }
 
@@ -109,23 +106,23 @@ body {
 }
 
 @keyframes morph {
-  0%, 100% {
-      border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  0%,
+  100% {
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
   }
 
   33% {
-      border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
   }
 
   66% {
-      border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
   }
 }
 
 .icon-delete {
   width: 30px;
   margin-left: 10px;
-  
 }
 
 .container-quotes {
@@ -137,8 +134,8 @@ body {
   font-size: 25px;
   width: 500px;
   align-self: center;
-  letter-spacing: .5px;
-  margin-left : 10px;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
 }
 
 .container-about {
@@ -149,12 +146,10 @@ body {
 .block-desc {
   align-self: center;
   font-size: 20px;
-
 }
 
 .par-desc {
   width: 500px;
-
 }
 
 .header-anime {
@@ -165,7 +160,6 @@ body {
 .par-fav {
   font-size: 20px;
 }
-
 
 .link-anime {
   background-color: #309632;
@@ -195,7 +189,7 @@ body {
 .container-notice {
   display: flex;
   justify-content: center;
-  letter-spacing: .5mm;
+  letter-spacing: 0.5mm;
   padding: 0;
 }
 
@@ -220,7 +214,7 @@ body {
 
 .par-secret {
   font-size: 17px;
-  letter-spacing: .4mm;
+  letter-spacing: 0.4mm;
 }
 
 .user {
@@ -231,41 +225,34 @@ body {
   text-align: center;
 }
 
-
-
-
 @media all and (max-width: 800px) {
-  .footer {
-    background-image: url("https://regnum.ru/uploads/pictures/news/2019/01/28/regnum_picture_1548680811307255_normal.jpg");
-  }
 
   .container-preloader {
     margin: 200px 300px;
-}
+  }
 
-.img-catalog {
-  height: 400px;
-}
+  .img-catalog {
+    height: 400px;
+  }
 
-.container-quotes {
-  flex-direction: column-reverse;
-  align-items: center;
-}
+  .container-quotes {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-.par-quotes {
-  font-size: 18px;
-}
+  .par-quotes {
+    font-size: 18px;
+  }
 
-.container-about {
-  flex-direction: column;
-  align-items: center;
-}
-
+  .container-about {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media all and (max-width: 500px) {
   .container-preloader {
-      margin: 50% 45%;
+    margin: 50% 45%;
   }
 
   .par-quotes {
@@ -287,4 +274,3 @@ body {
     height: 20rem;
   }
 }
-
