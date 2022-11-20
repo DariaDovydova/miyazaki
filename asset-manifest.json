@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/miyazaki/static/css/main.aa08fd27.css",
-    "main.js": "/miyazaki/static/js/main.b346019a.js",
+    "main.css": "/miyazaki/static/css/main.6da8292b.css",
+    "main.js": "/miyazaki/static/js/main.0e1f86db.js",
     "static/js/787.5cfe7958.chunk.js": "/miyazaki/static/js/787.5cfe7958.chunk.js",
     "static/media/miadzaki.jpg": "/miyazaki/static/media/miadzaki.440062fd1bca08bafaa4.jpg",
     "static/media/ghibli.jpg": "/miyazaki/static/media/ghibli.a7f55d033d606fc2f5d6.jpg",
     "index.html": "/miyazaki/index.html",
-    "main.aa08fd27.css.map": "/miyazaki/static/css/main.aa08fd27.css.map",
-    "main.b346019a.js.map": "/miyazaki/static/js/main.b346019a.js.map",
+    "main.6da8292b.css.map": "/miyazaki/static/css/main.6da8292b.css.map",
+    "main.0e1f86db.js.map": "/miyazaki/static/js/main.0e1f86db.js.map",
     "787.5cfe7958.chunk.js.map": "/miyazaki/static/js/787.5cfe7958.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa08fd27.css",
-    "static/js/main.b346019a.js"
+    "static/css/main.6da8292b.css",
+    "static/js/main.0e1f86db.js"
   ]
 }
